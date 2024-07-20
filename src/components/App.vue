@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import Navbar from '.component/Navbar.vue';
-import PageViewer from '.component/PageViewr.vue';
+import Navbar from './src/components/Navbar.vue';
+import PageViewer from './src/components/PageViewer.vue';
 
 export default {
    components: {
