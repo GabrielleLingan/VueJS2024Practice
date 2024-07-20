@@ -3,7 +3,12 @@
 </template>
 
 <script>
+import PageViewer from '.component/PageViewr.vue';
+
 export default {
+   components: {
+      PageViewer
+   },
    data() {
       return {
          activePage: 0,
