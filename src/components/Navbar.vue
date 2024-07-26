@@ -7,7 +7,7 @@
          <ul class="navbar-nav me-auto mb-2 mg-lg-0">
             <li v-for="(page, index) in pages" class="nav-item" :key="index">
                <a 
-                  class="nav-link activePage"
+                  class="nav-link"
                   :class="{active: activePage == index}" 
                   aria-current="page" 
                   :href="page.link.url"
